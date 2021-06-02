@@ -218,7 +218,7 @@ select cast(tpep_pickup_datetime as date) as pickup_date
   , passenger_count
   , total_amount
 from NYCTaxiDataTable
-where cast(tpep_pickup_datetime as date) = '2019-04-07'
+where cast(tpep_pickup_datetime as date) = '2019-01-01'
   and passenger_count > 5
 ```
 
